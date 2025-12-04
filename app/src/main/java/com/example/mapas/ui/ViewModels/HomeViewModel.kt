@@ -2,8 +2,9 @@ package com.example.mapas.ui.ViewModels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 
-class HomeViewModel {
+class HomeViewModel : ViewModel() {
 
 
     private val _mensajeBienVenida = MutableLiveData<String>()
